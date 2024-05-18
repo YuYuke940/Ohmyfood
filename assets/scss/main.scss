@@ -1,3 +1,15 @@
+@import "./variables";
+@import "./index";
+@import 'header';
+@import 'hero';
+@import 'restaurants';
+@import 'contact';
+@import 'footer';
+@import 'animations';
+
+
+
+
 @media (min-width: 768px) {
     .body {
         max-width: 1040px;
