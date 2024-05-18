@@ -1,0 +1,118 @@
+1///
+
+<div class="menu_card">
+    <div class="card_title">
+      <h3>Foie gras de canard mi-cuit<h3>
+    </div>
+    <div class="card_body">
+      <p>Et ses copeaux de truffe noire</p>
+      <span class="price">35€</span>
+      <button class="btn_check">
+        <i class="fa-solid fa-circle-check"></i>
+      </button>
+    </div>
+  </div>
+  <div class="menu_card">
+    <div class="card_title">
+      <h3>Œuf au plat</h3>
+    </div>
+    <div class="card_body">
+      <p>Assaisonné à la truffe sur lit de caviar</p>
+      <strong>20€</strong>
+      <button class="btn_check">
+        <i class="fa-solid fa-circle-check"></i>
+      </button>
+    </div>
+  </div>
+
+
+2</section>
+<section class="menu_section animation_card">
+  <h3 class="section_subtitle">PLATS</h3>
+  <div class="menu_card">
+    <div class="card_title">
+      <h3>Filet de bœuf aux herbes</h3>
+    </div>
+    <div class="card_body">
+      <p>Accompagné de sa ribambelle de légumes</p>
+      <strong>40€</strong>
+      <button class="btn_check">
+        <i class="fa-solid fa-circle-check"></i>
+      </button>
+    </div>
+  </div>
+  <div class="menu_card">
+    <div class="card_title">
+      <h3>Parmentier de queue de bœuf</h3>
+    </div>
+    <div class="card_body">
+      <p>À la truffe noire sur sa purée de panais</p>
+      <strong>35€</strong>
+      <button class="btn_check">
+        <i class="fa-solid fa-circle-check"></i>
+      </button>
+    </div>
+  </div>
+  <div class="menu_card">
+    <div class="card_title">
+      <h3>Filet de turbot</h3>
+    </div>
+    <div class="card_body">
+      <p>Aux agrumes</p>
+      <strong>44€</strong>
+      <button class="btn_check">
+        <i class="fa-solid fa-circle-check"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+3
+<section class="menu_section animation_card">
+          <h3 class="section_subtitle">DESSERTS</h3>
+          <div class="menu_card">
+            <div class="card_title">
+              <h3>Paris-Brest</h3>
+            </div>
+            <div class="card_body">
+              <p>Revisité</p>
+              <strong>18€</strong>
+              <button class="btn_check">
+                <i class="fa-solid fa-circle-check"></i>
+              </button>
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="card_title">
+              <h3>Macaron au chocolat d'exception</h3>
+            </div>
+            <div class="card_body">
+              <p>Et glace à la vanille de Madagascar</p>
+              <strong>22€</strong>
+              <button class="btn_check">
+                <i class="fa-solid fa-circle-check"></i>
+              </button>
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="card_title">
+              <h3>Mousse au chocolat</h3>
+            </div>
+            <div class="card_body">
+              <p>Au piment d'Espelette et à la truffe noire</p>
+              <strong>23€</strong>
+              <button class="btn_check">
+                <i class="fa-solid fa-circle-check"></i>
+              </button>
+            </div>
+          </div>
+          <button class="btn">Commander</button>
+        </section>
+
+
+
+
+        max-width: 1280px;
+  margin: auto;
+    margin-top: auto;
+  position: relative;

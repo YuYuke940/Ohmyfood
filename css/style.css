@@ -1,0 +1,380 @@
+.header {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header_arrow {
+  position: absolute;
+  bottom: 1em;
+  color: grey;
+}
+.header_img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu {
+  border-radius: 15px 15px 0 0;
+  background-color: #f6f6f6;
+  position: relative;
+}
+.menu_titles {
+  position: relative;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.menu_titles::after {
+  content: "";
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  height: 0.25rem;
+  width: 3rem;
+  background-color: #99E2D0;
+}
+.menu_title h2 {
+  font-family: Shrikhand, "cursive";
+}
+.menu_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu_header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: space-between;
+}
+.menu_container {
+  display: flex;
+  background-color: #f6f6f6;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 50px 50px 0 0;
+  margin-top: -50px;
+  position: relative;
+}
+.menu_card {
+  background-color: #fff;
+  display: flex;
+  border-radius: 15px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 30px -12px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+.menu_card:hover .btn_check {
+  margin-right: 0;
+}
+.menu_section {
+  overflow: hidden;
+}
+
+#restau_page .card_title {
+  flex: 1;
+  padding: 1rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#restau_page .card_title h3 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+#restau_page .card_title p {
+  margin: 0px;
+}
+#restau_page .card_price {
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: 600;
+  padding-right: 1rem;
+}
+
+.btn_check {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border: 1px green;
+  background-color: #99E2D0;
+  height: 100%;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -65px;
+  transition: 1s;
+}
+.btn_check i {
+  display: grid;
+  place-items: center;
+  background: white;
+  aspect-ratio: 1;
+  width: 2rem;
+  border-radius: 1rem;
+  color: #008766;
+  font-size: large;
+}
+.btn_restau {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+/****Generalities*****/
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.main_subtitle {
+  margin: 55px 0px 25px 20px;
+}
+
+/*****Body*****/
+.body {
+  max-width: 768px;
+  margin: 0 auto;
+  /* border: 1px solid blue;*/
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+}
+
+/******Header*****/
+.header {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+}
+.header_logo {
+  margin: 0;
+  text-align: center;
+  font-family: Shrikhand, "cursive";
+}
+
+/*****Position Menu*****/
+.position {
+  background-color: rgb(234, 234, 234);
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  box-sizing: border-box;
+}
+.position_text {
+  size: 16px;
+  font-weight: 500;
+  width: 109px;
+  height: 19px;
+  padding-left: 10px;
+}
+
+/*****Info*****/
+.informations {
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 66px;
+}
+.informations_btn {
+  color: #F3F3F3;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 25px 25px 25px 25px;
+  background-image: linear-gradient(to bottom, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
+  width: 218px;
+}
+
+/*****Tuto Menu*****/
+.info_menu {
+  padding-bottom: 60px;
+  /****border: 1px solid red;*****/
+}
+.info_steps {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.info_step {
+  background-color: rgb(246, 246, 246);
+  height: 72px;
+  border-radius: 20px;
+  width: 85%;
+  list-style: none;
+  padding: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+  padding-left: 25px;
+}
+.info_number {
+  height: 24px;
+  width: 24px;
+  background-color: #9356DC;
+  border-radius: 12px;
+  position: absolute;
+  left: -12px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-store {
+  color: #9356DC;
+}
+
+/*****Restaurant Menu*****/
+.restaurants {
+  gap: 18px;
+  background-color: #f6f6f6;
+}
+.restaurants_cards {
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.restaurants_cards img {
+  border-radius: 15px 15px 0 0;
+  height: 174px;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 15px;
+}
+.card_badge {
+  color: #008766;
+  position: absolute;
+  top: 1rem;
+  right: 0.75rem;
+  background-color: #99E2D0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card_img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card_content {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card_footer {
+  padding: 10px 15px 15px 15px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: space-between;
+}
+.card_title {
+  margin: 0;
+}
+.card_subtitle {
+  margin-top: 5px;
+}
+.card_btn {
+  font-size: 2em;
+  display: flex;
+  padding: 0;
+}
+
+.heart {
+  position: relative;
+  font-size: 2em;
+  height: 30px;
+  width: 30px;
+}
+.heart_empty {
+  position: absolute;
+  opacity: 1;
+  transition: 2s;
+}
+.heart_full {
+  background: linear-gradient(to bottom, #9356dc, #FF79DA);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  position: absolute;
+  opacity: 0;
+  transition: 2s;
+}
+
+.heart:hover .heart_empty {
+  opacity: 0;
+}
+
+.heart:hover .heart_full {
+  opacity: 1;
+}
+
+.footer {
+  background-color: #353535;
+  text-decoration: none;
+}
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 15px 15px;
+  font-size: 16px;
+}
+.footer_logo {
+  color: white;
+  font-family: Shrikhand, "cursive";
+  font-size: 18px;
+}
+.footer_links {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: 7px;
+}
+.footer_links a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 7px;
+  margin-bottom: 7px;
+}
+.footer_icon {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .body {
+    max-width: 1040px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
